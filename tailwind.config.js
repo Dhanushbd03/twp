@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./index.js"],
   theme: {
@@ -7,7 +6,7 @@ module.exports = {
         primary: "#0082ff",
         button: "#0082ff",
       },
-    },
+    }, 
   },
   plugins: [],
 };
